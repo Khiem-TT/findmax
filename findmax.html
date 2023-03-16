@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Max</title>
+</head>
+<body>
+<script>
+    let arrray = [-3, 5, 1, 3, 2, 10];
+    let max = arrray[0];
+    let index = 0;
+    for (let i = 1; i < arrray.length; i++) {
+        if (arrray[i] > max) {
+            max = arrray[i];
+            index = i;
+        }
+    }
+    alert(`Max = ${max} ở vị trí ${index}`);
+</script>
+</body>
+</html>
